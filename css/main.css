@@ -23,7 +23,27 @@ footer {
   color: #fff;
 }
 
+input[type="checkbox"] + label::before {
+  border-color: #6e8c62;
+}
+
+input[type="radio"] + label::before {
+  border-color: #6e8c62;
+}
+
 button {
   background-color: #6e8c62;
   border: 3px solid #6e8c62;
+}
+
+input {
+  border-color: #6e8c62;
+}
+
+span {
+  color: #70ad55;
+}
+
+hr {
+  border-top: 2px solid rgba(112, 173, 85, .5);
 }
