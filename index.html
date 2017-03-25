@@ -8,34 +8,36 @@
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
   <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet">
+
 </head>
 <body>
 
-  <header>
-    <h1>Apply to be a tree planter</h1>
-    <p>Trees are one of the world's most precious renewable resourses-we need your help to renew the ecosystem.</p>
+  <header class=" gutter-1-2 pad-t pad-b push">
+    <h1 class="max-length push-1-4 bold">Apply to be a tree planter</h1>
+    <p class="max-length push mega">Trees are one of the world's most precious renewable resourses-we need your help to renew the ecosystem.</p>
   </header>
 
   <form method="post" action="#">
 
-    <fieldset>
-      <legend>Personal details</legend>
-      <div>
-        <div>
+    <fieldset class="push gutter-1-2">
+      <legend class="unit xs-1 giga bold push">Personal details</legend>
+      <div class="grid">
+        <div class="unit xs-1 m-1-2 push">
           <label for="name">Full name</label>
           <input id="name" name="name">
-          <p>Your full legal name, for insurance purposes, e.g. "Elizabeth Bradley".</P>
+          <p class="italic micro">Your full legal name, for insurance purposes, e.g. "Elizabeth Bradley".</P>
         </div>
-        <div>
+        <div class="unit xs-1 m-1-2 push">
           <label for="nickname">What should we call you?</label>
           <input id="nickname" name="nickname">
-          <p>What all your friends call you, e.g. "Liz".</p>
+          <p class="italic micro">What all your friends call you, e.g. "Liz".</p>
         </div>
-        <div>
+        <div class="unit xs-1 m-1-2 push">
           <label for="date-of-birth">Date of birth</label>
           <input id="date-of-birth" name="date-of-birth" type="date">
         </div>
-        <div>
+        <div class="unit xs-1 m-1-2 push">
           <label for="t-shirt-size">T-shirt size</label>
           <select id="t-shirt-size" name="t-shirt-size">
             <option value="">Select a t-shirt size</option>
@@ -51,19 +53,19 @@
             <option>Straight-cut: XL</option>
           </select>
         </div>
-        <div>
+        <div class="unit xs-1 m-1-2 push">
           <label for="email">Email</label>
           <input id="email" type="email" name="email">
         </div>
-        <div>
-          <label for="tel">Phone number (optional)</label>
+        <div class="unit xs-1 m-1-2 push">
+          <label for="tel">Phone number <span class="italic">(optional)</span></label>
           <input id="tel" type="tel" name="tel">
         </div>
       </div>
 
     </fieldset>
 
-    <hr>
+    <hr class="island-1-4">
 
   <fieldset>
     <legend>Address</legend>
@@ -241,7 +243,7 @@
     <div>
       <button type="submit">Apply</button>
     </div>
-    <footer>© Tree Hugger International Organization</footer>
+    <footer class="milli">© Tree Hugger International Organization</footer>
 
 </body>
 </html>
