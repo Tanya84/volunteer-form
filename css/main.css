@@ -40,10 +40,23 @@ input {
   border-color: #6e8c62;
 }
 
+select {
+  border-color: #6e8c62;
+}
+
+fieldset {
+  border: 0;
+}
+
 span {
   color: #70ad55;
 }
 
 hr {
   border-top: 2px solid rgba(112, 173, 85, .5);
+}
+
+textarea {
+  padding: 2rem;
+  border-color: #6e8c62;
 }
